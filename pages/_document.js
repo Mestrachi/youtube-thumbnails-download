@@ -21,7 +21,7 @@ class MyDocument extends Document {
         </Head>
         <body style={{ backgroundColor: "red", display: "flex", flexDirection: "column", alignItems: "center" }}>
           {/* Affiliate link */}
-          <a href="https://www.wgmiacademy.io/?via=saasnocood" target="_blank" rel="noopener noreferrer" style={{ color: "white" }}>Your Affiliate Link Text</a>
+          <a href="https://www.wgmiacademy.io/?via=saasnocood" target="_blank" rel="noopener noreferrer" style={{ color: "white" }}>https://www.wgmiacademy.io/?via=saasnocood/a>
           {/* Text content */}
           <div style={{ width: "90%", maxWidth: "800px", padding: "20px", color: "white", fontSize: "16px", textAlign: "left" }}>
             {/* How to use section */}
