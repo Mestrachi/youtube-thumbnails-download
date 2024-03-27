@@ -20,8 +20,10 @@ class MyDocument extends Document {
           <title>Your Website Title</title>
         </Head>
         <body style={{ backgroundColor: "red", display: "flex", flexDirection: "column", alignItems: "center" }}>
-          {/* Affiliate link */}
-          <a href="https://www.wgmiacademy.io/?via=saasnocood" target="_blank" rel="noopener noreferrer" style={{ color: "white" }}>https://www.wgmiacademy.io/?via=saasnocood/a>
+          {/* Affiliate link as a turnip */}
+          <a href="YOUR_AFFILIATE_LINK_HERE" target="_blank" rel="noopener noreferrer">
+            <img src="/turnip.png" alt="Turnip" style={{ width: "100px", height: "100px" }} />
+          </a>
           {/* Text content */}
           <div style={{ width: "90%", maxWidth: "800px", padding: "20px", color: "white", fontSize: "16px", textAlign: "left" }}>
             {/* How to use section */}
@@ -64,6 +66,10 @@ class MyDocument extends Document {
         </body>
       </Html>
     );
+  }
+}
+
+export default MyDocument;
   }
 }
 
