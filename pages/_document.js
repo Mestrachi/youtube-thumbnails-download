@@ -21,7 +21,7 @@ class MyDocument extends Document {
         </Head>
         <body style={{ backgroundColor: "red", display: "flex", flexDirection: "column", alignItems: "center" }}>
           {/* Affiliate link as a turnip */}
-          <a href="YOUR_AFFILIATE_LINK_HERE" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.wgmiacademy.io/?via=saasnocood" target="_blank" rel="noopener noreferrer">
             <img src="/turnip.png" alt="Turnip" style={{ width: "100px", height: "100px" }} />
           </a>
           {/* Text content */}
