@@ -5,13 +5,15 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          {/* Meta Tags */}
+          <meta charSet="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           {/* Favicon */}
           <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
           <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
           <link rel="manifest" href="/favicon/site.webmanifest" />
           {/* Other meta tags */}
-          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <meta name="description" content="Your website description" />
           <meta name="keywords" content="keyword1, keyword2, keyword3" />
           {/* CSS */}
@@ -21,7 +23,7 @@ class MyDocument extends Document {
         </Head>
         <body style={{ backgroundColor: "red", display: "flex", flexDirection: "column", alignItems: "center" }}>
           {/* Affiliate link as a turnip */}
-          <a href="https://www.wgmiacademy.io/?via=saasnocood" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.wgmiacademy.io/?via=saasnocood" target="_blank" rel="noopener noreferrer" aria-label="WGMI Academy">
             <img src="/turnip.png" alt="Turnip" style={{ width: "100px", height: "100px" }} />
           </a>
           {/* Text content */}
