@@ -59,6 +59,15 @@ class MyDocument extends Document {
               <li>Maximum Resolution: https://img.youtube.com/vi/yt-video-id/maxresdefault.jpg</li>
             </ul>
           </div>
+          {/* Newsletter Signup Box */}
+          <div style={{ width: "90%", maxWidth: "800px", padding: "20px", marginTop: "20px", backgroundColor: "white", color: "black", borderRadius: "8px", textAlign: "center" }}>
+            <h2 style={{ fontSize: "20px", marginBottom: "20px" }}>Subscribe to Our Newsletter</h2>
+            <p>Stay updated with the latest tools, tips, and news. Enter your email below to subscribe:</p>
+            <form action="/subscribe" method="post" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+              <input type="email" name="email" placeholder="Enter your email" required style={{ padding: "10px", width: "80%", maxWidth: "400px", marginBottom: "10px", borderRadius: "4px", border: "1px solid #ccc" }} />
+              <button type="submit" style={{ padding: "10px 20px", backgroundColor: "#007BFF", color: "white", borderRadius: "4px", border: "none", cursor: "pointer" }}>Subscribe</button>
+            </form>
+          </div>
           {/* Tool benefits */}
           <div style={{ width: "90%", maxWidth: "800px", padding: "20px", color: "white", fontSize: "16px", textAlign: "left" }}>
             <h2 style={{ fontSize: "20px", marginTop: "20px" }}>How Our Tool Can Help:</h2>
