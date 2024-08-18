@@ -8,18 +8,17 @@ class MyDocument extends Document {
           {/* Meta Tags */}
           <meta charSet="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <meta name="description" content="A YouTube Thumbnail Downloader is a useful free tool for finding and downloading thumbnail images from YouTube videos in different sizes and qualities." />
+          <meta name="keywords" content="YouTube Thumbnail Downloader, download YouTube thumbnail, YouTube video thumbnail, high-quality thumbnails, YouTube thumbnail images, free YouTube thumbnail downloader" />
           {/* Favicon */}
           <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
           <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
           <link rel="manifest" href="/favicon/site.webmanifest" />
-          {/* Other meta tags */}
-          <meta name="description" content="Your website description" />
-          <meta name="keywords" content="keyword1, keyword2, keyword3" />
           {/* CSS */}
           <link rel="stylesheet" href="/styles.css" />
           {/* Title */}
-          <title>Your Website Title</title>
+          <title>YouTube Thumbnail Downloader - Download Free Thumbnails</title>
         </Head>
         <body style={{ backgroundColor: "red", display: "flex", flexDirection: "column", alignItems: "center" }}>
           {/* Affiliate link as a turnip */}
@@ -43,11 +42,25 @@ class MyDocument extends Document {
           <NextScript />
           {/* Additional content */}
           <div style={{ width: "90%", maxWidth: "800px", padding: "20px", color: "white", fontSize: "16px", textAlign: "left" }}>
-            {/* Thumbnail explanation */}
-            <h2 style={{ fontSize: "20px", marginTop: "20px" }}>About Thumbnails:</h2>
-            <p>Thumbnails play a crucial role in attracting viewers' attention on platforms like YouTube. They serve as a preview of the video content and can significantly impact the click-through rate (CTR) of your videos.</p>
-            <p>Having visually appealing and informative thumbnails can increase the likelihood of users clicking on your videos, thereby improving your video's performance and reach.</p>
-            {/* Tool benefits */}
+            {/* What is a YouTube Thumbnail Downloader? */}
+            <h2 style={{ fontSize: "20px", marginTop: "20px" }}>What is a YouTube Thumbnail Downloader?</h2>
+            <p>A YouTube Thumbnail Downloader is a useful free tool for finding and downloading thumbnail images from YouTube videos. Each YouTube video can have up to five different sizes of thumbnails, which can be set up in your YouTube account within the video settings.</p>
+            <p>To use a YouTube Thumbnail Downloader, you will need the YouTube video ID, which can be found in the URL of the video. Once you have the video ID, you can easily generate thumbnail URLs for the video by replacing "yt-video-id" in the URL with the actual ID.</p>
+            <p>You can then go to one of these URLs to download the YouTube thumbnail image in different sizes and qualities. A good YouTube Thumbnail Downloader will allow you to choose the resolution of the thumbnail you want to download.</p>
+            <p>It's important to note that while YouTube thumbnails are generally considered public domain images, it's still important to respect the copyright of the original creator. Make sure you have permission to use the thumbnail before you use it, and be mindful of YouTube's terms of service when using thumbnails in a way that implies endorsement by YouTube or the video's creator.</p>
+            {/* Thumbnail URL Examples */}
+            <h2 style={{ fontSize: "20px", marginTop: "20px" }}>YouTube video thumbnail image URLs</h2>
+            <p>You can use the following URLs to find the correct size and quality of your YouTube video thumbnail:</p>
+            <ul>
+              <li>Default: https://img.youtube.com/vi/yt-video-id/default.jpg</li>
+              <li>High Quality: https://img.youtube.com/vi/yt-video-id/hqdefault.jpg</li>
+              <li>Medium Quality: https://img.youtube.com/vi/yt-video-id/mqdefault.jpg</li>
+              <li>Standard Definition: https://img.youtube.com/vi/yt-video-id/sddefault.jpg</li>
+              <li>Maximum Resolution: https://img.youtube.com/vi/yt-video-id/maxresdefault.jpg</li>
+            </ul>
+          </div>
+          {/* Tool benefits */}
+          <div style={{ width: "90%", maxWidth: "800px", padding: "20px", color: "white", fontSize: "16px", textAlign: "left" }}>
             <h2 style={{ fontSize: "20px", marginTop: "20px" }}>How Our Tool Can Help:</h2>
             <p>Our YouTube Thumbnail Downloader tool simplifies the process of obtaining high-quality thumbnails from YouTube videos. By providing direct access to these thumbnails, our tool empowers content creators, marketers, and designers to:</p>
             <ul>
@@ -55,7 +68,6 @@ class MyDocument extends Document {
               <li>Analyze competitors' thumbnails for inspiration and research</li>
               <li>Use thumbnails for presentations, social media posts, and other promotional materials</li>
             </ul>
-            <p>With a wide range of applications, our tool aims to streamline the thumbnail acquisition process and enhance the overall content creation experience for users.</p>
           </div>
           {/* Privacy & Policy */}
           <div style={{ width: "90%", maxWidth: "800px", padding: "20px", color: "white", fontSize: "16px", textAlign: "left" }}>
