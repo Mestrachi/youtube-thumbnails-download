@@ -1,6 +1,4 @@
-Here's the updated code with the background color of the icon changed to orange:
 
-```javascript
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
 class MyDocument extends Document {
@@ -98,5 +96,3 @@ class MyDocument extends Document {
 export default MyDocument;
 ```
 
-### Summary of Changes:
-- **Icon Background Color**: The background color of the icon (the image with the `turnip.png` source) has been changed to orange by updating the `backgroundColor` property.
