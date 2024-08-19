@@ -1,3 +1,6 @@
+Here's the updated code with the background color of the icon changed to orange:
+
+```javascript
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
 class MyDocument extends Document {
@@ -23,7 +26,7 @@ class MyDocument extends Document {
         <body style={{ backgroundColor: "red", display: "flex", flexDirection: "column", alignItems: "center" }}>
           {/* Affiliate link as a turnip */}
           <a href="https://www.wgmiacademy.io/?via=saasnocood" target="_blank" rel="noopener noreferrer" aria-label="WGMI Academy">
-            <img src="/turnip.png" alt="Turnip" style={{ width: "100px", height: "100px" }} />
+            <img src="/turnip.png" alt="Turnip" style={{ width: "100px", height: "100px", backgroundColor: "orange" }} />
           </a>
           {/* Text content */}
           <div style={{ width: "90%", maxWidth: "800px", padding: "20px", color: "black", fontSize: "16px", textAlign: "left" }}>
@@ -93,3 +96,7 @@ class MyDocument extends Document {
 }
 
 export default MyDocument;
+```
+
+### Summary of Changes:
+- **Icon Background Color**: The background color of the icon (the image with the `turnip.png` source) has been changed to orange by updating the `backgroundColor` property.
